@@ -8,9 +8,13 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        startDate = DateTimePicker1.Value.ToShortDateString
-        endDate = DateTimePicker2.Value.ToShortDateString
-        Me.Hide()
-        OrderReport.Show()
+        If DateTimePicker1.Value <= DateTimePicker2.Value Then
+            startDate = DateTimePicker1.Value.ToShortDateString
+            endDate = DateTimePicker2.Value.ToShortDateString
+            Me.Hide()
+            OrderReport.Show()
+        Else
+            MessageBox.Show("End date must after start date.", "Error")
+        End If
     End Sub
 End Class
