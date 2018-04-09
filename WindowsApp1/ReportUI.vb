@@ -14,7 +14,7 @@
             Me.Hide()
             OrderReport.Show()
         Else
-            MessageBox.Show("End date must after start date.", "Error")
+            MessageBox.Show("End date must after start date.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
     End Sub
 End Class

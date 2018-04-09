@@ -27,19 +27,19 @@ Partial Class OrderReport
         '
         'ReportViewer1
         '
-        Me.ReportViewer1.Location = New System.Drawing.Point(69, 88)
+        Me.ReportViewer1.Location = New System.Drawing.Point(12, 12)
         Me.ReportViewer1.Name = "ReportViewer1"
         Me.ReportViewer1.ServerReport.BearerToken = Nothing
-        Me.ReportViewer1.Size = New System.Drawing.Size(396, 246)
+        Me.ReportViewer1.Size = New System.Drawing.Size(770, 420)
         Me.ReportViewer1.TabIndex = 0
         '
-        'Form1
+        'OrderReport
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(796, 450)
         Me.Controls.Add(Me.ReportViewer1)
-        Me.Name = "Form1"
+        Me.Name = "OrderReport"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 

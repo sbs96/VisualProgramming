@@ -36,7 +36,7 @@ Partial Class ReportUI
         Me.DateTimePicker1.Location = New System.Drawing.Point(164, 116)
         Me.DateTimePicker1.MaxDate = New Date(2018, 4, 2, 23, 34, 31, 0)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 26)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(279, 26)
         Me.DateTimePicker1.TabIndex = 0
         Me.DateTimePicker1.Value = New Date(2018, 4, 2, 0, 0, 0, 0)
         '
@@ -56,7 +56,7 @@ Partial Class ReportUI
         Me.DateTimePicker2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker2.Location = New System.Drawing.Point(164, 169)
         Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(200, 26)
+        Me.DateTimePicker2.Size = New System.Drawing.Size(279, 26)
         Me.DateTimePicker2.TabIndex = 2
         '
         'Label1
